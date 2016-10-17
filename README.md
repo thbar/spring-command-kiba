@@ -10,7 +10,7 @@ This gem implements the `kiba` command for
 Add to your Gemfile:
 
 ``` ruby
-gem 'spring-command-kiba', group: :development
+gem 'spring-command-kiba', git: 'https://github.com/thbar/spring-command-kiba.git', group: :development
 ```
 
 If you're using spring binstubs, run `bundle exec spring binstub kiba` to generate `bin/kiba`.
